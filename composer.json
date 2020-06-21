@@ -1,0 +1,22 @@
+{
+    "name": "yijin/wft",
+    "desc": "威富通支付",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yijin",
+            "email": "uyijin@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "wft\\": "src/wft/"
+        }
+    }
+}
